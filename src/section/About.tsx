@@ -41,7 +41,7 @@ const About = () => {
               target="_blank"
               href="https://metaversus-aditya.netlify.app/"
             >
-              MetaVersus,
+              GeniCraft,
             </Link>
             &nbsp;aimed at enhancing frontend development skills.
           </p>
@@ -50,14 +50,14 @@ const About = () => {
           </p>
           <ul className="about-grid-info-list">
             <li className="about-grid-info-list-item">React</li>
-            <li className="about-grid-info-list-item">React Native</li>
+            {/* <li className="about-grid-info-list-item">React Native</li> */}
             <li className="about-grid-info-list-item">Next.js</li>
-            <li className="about-grid-info-list-item">Typescript</li>
+            <li className="about-grid-info-list-item">Taiwind CSS</li>
             <li className="about-grid-info-list-item">Redux Toolkit</li>
-            <li className="about-grid-info-list-item">Sass</li>
+            <li className="about-grid-info-list-item">Javascript</li>
             <li className="about-grid-info-list-item">Figma</li>
-            <li className="about-grid-info-list-item">Tailwind Css</li>
-            <li className="about-grid-info-list-item">CSS</li>
+            <li className="about-grid-info-list-item">Typescript</li>
+            <li className="about-grid-info-list-item">Framer Motion</li>
           </ul>
           </div>
         <div className="about-grid-photo">

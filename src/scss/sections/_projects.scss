@@ -3,16 +3,17 @@
 .projects {
     margin: 15rem 0;
     padding: 2rem;
-    @media screen and (max-width: 768px){
-      position: relative;
-      margin-bottom: 100rem;
+    font-family: "Inter", sans-serif;
+    // @media screen and (max-width: 768px){
+    //   position: relative;
+    //   margin-bottom: 100rem;
 
-    }
-    @media screen and (max-width: 1080px){
-      position: relative;
-      top: -10rem;
-      // display: none;
-    }
+    // }
+    // @media screen and (max-width: 1080px){
+    //   position: relative;
+    //   top: -10rem;
+    //   // display: none;
+    // }
     h2{
         color: var(--lightest-slate);
        margin-bottom: 2rem;    
@@ -105,7 +106,7 @@
             width: max-content;
             color: var(--lightest-slate);
             font-size: var(--txlarge);
-            font-family: "Raleway", sans-serif;
+            font-family: "Montserrat", "Inter";
             cursor: pointer;
             transition: 0.3s ease-in-out;
             &:hover {
@@ -117,9 +118,11 @@
             border-radius: 0.2rem;
             p {
               color: var(--light-slate);
-              font-family: "Raleway", sans-serif;
+              font-family: "Montserrat", "Inter";
               padding: 2rem;
               text-align: end;
+              font-size: 0.9rem;
+              line-height: 1.3rem;
             }
           }
           &-tech-list {
@@ -129,7 +132,7 @@
             flex-wrap: wrap;
             &-item {
               color: var(--light-slate);
-              font-family: "Raleway", sans-serif;
+              font-family: "Inter", sans-serif;
             }
           }
           &-links {
@@ -181,7 +184,11 @@
         align-items: center;
         .project {
           justify-content: flex-start;
+          width: 550px;
           .project-info {
+            // margin-bottom: 0;
+            display: flex;
+            justify-content: flex-end;
             width: 600px;
             height: 300px;
             background-color: rgba(31, 10, 44, 0.592);
@@ -190,6 +197,7 @@
   
             &-description {
               background-color: transparent;
+              display: none;
               p {
                 padding: 0;
                 text-align: start;

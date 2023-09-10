@@ -3,6 +3,8 @@ import React from 'react'
 import Link from 'next/link'
 import { motion } from 'framer-motion'
 import Button from '@/components/Button'
+import Typewriter from "typewriter-effect"
+
 const Hero = () => {
   return (
     <div className='hero'>
@@ -37,7 +39,15 @@ const Hero = () => {
               ease: "easeInOut",
               delay: 1.05,
             }}
-            >I create awesome stuff for the web! </motion.h3>
+            >
+              <Typewriter
+                options={{
+                  strings: ['I create awesome stuff for the web!'],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+               </motion.h3>
             <motion.p 
             className='hero-text'
             initial={{ opacity: 0, y: 5 }}

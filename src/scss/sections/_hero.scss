@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Code&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 .hero {
     margin-top: 2.5rem;
@@ -12,19 +14,26 @@
     &-title {
       color: var(--theme-color);
       font-size: 12px;
-      font-family: 'Fira Code', monospace;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
     }
     &-title-large {
       font-size: 3.6rem;
-      font-family: 'Raleway', sans-serif;
+      font-family: 'Inter', sans-serif;
       color: var(--light-slate);
       @media screen and (max-width: 768px) {
-        font-size: 3rem;
+        font-size: 2.5rem;
+        font-weight: 500;
       }
     }
     &-title-sub {
+      font-family: 'Montserrat', sans-serif;
       color: var(--lightest-slate);
       font-size: 3.2rem;
+      @media screen and (max-width: 768px) {
+        font-size: 2rem;
+        font-weight: 500;
+      }
     }
     &-text {
       color: var(--slate);
@@ -32,11 +41,15 @@
       font-size: 1rem;
       letter-spacing: 0.07rem;
       line-height: 1.4rem;
-      font-weight: 600;
-      font-family: 'Raleway', sans-serif;
+      font-weight: 400;
+      font-family: 'Montserrat', sans-serif;
       a{
         text-decoration: none;
         color: var(--theme-color);
+      }
+      @media screen and (max-width: 768px) {
+        font-size: 0.8rem;
+        font-weight: 400;
       }
     }
     &-button {
@@ -51,6 +64,7 @@
     @media screen and (max-width: 768px) {
       &-text {
         width: 90%;
+        
         // border: 2px solid black;
       }
     }

@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 
 .contact {
     max-width: 700px;
@@ -9,15 +11,15 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    @media screen and (max-width: 768px){
-      position: relative;
-      top: -25rem;
-    }
-    @media screen and (max-width: 1080px){
-      position: relative;
-      top: -8rem;
-      // display: none;
-    }
+    // @media screen and (max-width: 768px){
+    //   position: relative;
+    //   top: -25rem;
+    // }
+    // @media screen and (max-width: 1080px){
+    //   position: relative;
+    //   top: -8rem;
+    //   // display: none;
+    // }
     .contact-title {
       color: var(--theme-color);
       font-size: var(--tbase);
@@ -32,7 +34,7 @@
     }
     .contact-sub-title {
       font-size: var(--tgiant);
-      font-family: "Raleway", sans-serif;
+      font-family: "Inter", sans-serif;
       color: var(--light-slate);
     }
     .contact-text {
@@ -41,7 +43,7 @@
       letter-spacing: 0.07rem;
       line-height: 1.6rem;
       font-weight: 500;
-      font-family: "Raleway", sans-serif;
+      font-family: "Montserrat" sans-serif;
       text-align: center;
     }
     .contact-cta {
