@@ -8,6 +8,18 @@ import Link from "next/link";
 const Projects = () => {
   const projectsData = [
     {
+      image: "/GeniCraft.png",
+      projectName: "GeniCraft",
+      projectLink: "https://geni-craft.vercel.app/",
+      projectDescription:
+        "GeniCraft is a cool web app that uses AI to do lots of fun stuff. It makes sure your login is safe with Clerk. You can chat with it, make cool pictures and code with AI from OpenAI. It also helps you make music and videos using Replicate. It's like having a creative AI buddy for all your digital projects!",
+      projectTech: ["Next.js", "Typescript","HTML", "Taiwind CSS", "OpenAI API", "Replicate API"],
+      projectExternalLinks: {
+        github: "https://github.com/ImAdityaa12/GeniCraft",
+        externalLink: "https://geni-craft.vercel.app/",
+      },
+    },
+    {
       image: "/CinemaVerse.png",
       projectName: "CinemaVerse",
       projectLink: "https://cinemaverseaditya.netlify.app/",
@@ -61,7 +73,7 @@ const Projects = () => {
       projectName: "Nike Landing Page",
       projectLink: "https://nike-landingpage-tailwindcss-aditya.netlify.app/",
       projectDescription:
-        "I developed a responsive Nike website frontend using React and Tailwind CSS. The website features a modern and user-friendly interface that is compatible with all screen sizes. I implemented a variety of React components and Tailwind CSS classes to create a visually appealing and functional website. I deployed the website to Netlify for easy access and scalability. This project demonstrates my skills in React, Tailwind CSS, and web development. It also shows my ability to design and implement a user-centric interface.",
+        "I built a responsive Nike website using React and Tailwind CSS. It's user-friendly and looks good on any device. I used different React components and Tailwind CSS styles to make it work and look great. You can access it easily on Netlify, and it shows I'm good at web development and making websites that people like to use.  ",
       projectTech: [
         "HTML",
         "Tailwind CSS",
@@ -87,7 +99,7 @@ const Projects = () => {
           hidden: { opacity: 0, y: 0 },
         }}
       >
-        <h2>Some Things I&apos; ve Built</h2>
+        <h2>Things I&apos; ve Built</h2>
       </motion.div>
       <div className="projects-container">
         {projectsData.map(

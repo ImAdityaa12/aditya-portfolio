@@ -39,15 +39,15 @@ const Experience = () => {
       ],
     },
     {
-      name: "Expense Tracker",
+      name: "GeniCraft",
       role: "Front End",
-      url: "https://expense-tracker-aditya.netlify.app/",
-      start: "February 2023",
-      end: "February 2023",
+      url: "https://geni-craft.vercel.app/",
+      start: "August 2023",
+      end: "August 2023",
       shortDescription: [
-        "The Expense Tracker web application, built with React and Context API, empowers users to efficiently manage their finances. With a simple and intuitive interface, users can track their expenses, view their current balance, and access a detailed transaction history.",
-        "Leveraging the power of Context API, the application seamlessly manages state and ensures smooth data flow throughout the user's interaction. Users can easily add new expenses, categorize transactions, and monitor their spending patterns.",
-        "The Expense Tracker is a valuable tool for individuals seeking a convenient and organized way to monitor their financial activities, fostering better money management and financial planning.",
+        "GeniCraft is a versatile web app powered by AI.",
+        "It offers secure login through Clerk and features like AI-driven chat, image and code generation using OpenAI, and music and video creation with Replicate.",
+        "GeniCraft is your creative AI companion for a wide range of digital projects.",
       ],
     },
     {
@@ -75,7 +75,7 @@ const Experience = () => {
       }}
     >
       <div className="title">
-        <h2>Where I&apos;ve Worked</h2>
+        <h2>Some Major Projects</h2>
       </div>
       <div className="container">
         <ul className="exp-slider">
