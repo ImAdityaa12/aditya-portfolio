@@ -30,7 +30,10 @@ nav {
           font-size: 1.7rem;
           font-weight: 400;
           font-family: Inter;
-          // border: 2px solid  	black;
+          // border: 2px solid black;
+          @media screen and (max-width: 768px){
+            padding-right: 3rem;
+          }
           &::after{
             content: ".";
             font-size: 3rem;
