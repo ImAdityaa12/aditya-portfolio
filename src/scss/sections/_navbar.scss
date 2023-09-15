@@ -29,10 +29,11 @@ nav {
           text-decoration: none;
           font-size: 1.7rem;
           font-weight: 400;
-          font-family: Inter;
+          font-family: 'Inter', 'sans-serif';
           // border: 2px solid black;
           @media screen and (max-width: 768px){
             padding-right: 3rem;
+            font-family: 'Inter', 'sans-serif';
           }
           &::after{
             content: ".";
