@@ -61,7 +61,7 @@ const Navbar = () => {
             }}
             >
                 <Link href="https://www.linkedin.com/in/aditya-raj-gupta-089393215/">
-                    Portfolio
+                    {"<Aditya />"}
                 </Link>
             </motion.div>
             <motion.div 
