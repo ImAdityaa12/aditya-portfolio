@@ -39,7 +39,7 @@ const About = () => {
             <Link
               className="link"
               target="_blank"
-              href="https://metaversus-aditya.netlify.app/"
+              href="https://geni-craft.vercel.app/"
             >
               GeniCraft,
             </Link>
